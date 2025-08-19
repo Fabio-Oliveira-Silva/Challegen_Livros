@@ -1,6 +1,6 @@
 # 📚 Aplicação de Busca de Livros com API Gutendex
 
-Este é um projeto Java com interação via console e integração com banco de dados que permite buscar livros e autores utilizando a API pública do **[Projeto Gutendex](https://gutendex.com/)**.
+Projeto Java com interação via console e integração com banco de dados, que permite buscar livros e autores utilizando a API pública do Projeto Gutendex.
 
 ---
 ### 🔧 Tecnologias Utilizadas
@@ -30,37 +30,6 @@ Este é um projeto Java com interação via console e integração com banco de 
 - Listar os livros em algum idioma que estejam cadastrados no banco de dados
 - (extra) Listar Top 10 livros mais baixados, cadastrados no banco de dados
 
----
-### 🧱 Estrutura de Pacotes
-
-```bash
-src/
-
-    ├── dto/                      
-    │   └──AutorDTO
-    │   └──LivroDTO
-    │   └──ResponseAPI
-    ├── exceptions/  
-    │   └──EntradaInvalidaException
-    ├── mapper/
-    │   └──AutorMapper
-    │   └──LivroMapper
-    ├── model/                     
-    │   └── Autor
-    │   └── Livro
-    ├── principal/
-    │   └── Principal
-    ├── repository/
-    │   └── AutorRepository
-    │   └── LivroRepository 
-    ├── service/                  
-    │   ├── ConsumoApi
-    │   ├── ConverteDados  
-    │   └── IConverteDados
-    │   └── LivroService
-    │── LiterAluraApplication 
-
-```
 ---
 ### 🖥️ Exemplo de uso
 
@@ -98,24 +67,7 @@ Resumo do livro: "Romeo and Juliet" by William Shakespeare is a tragedy likely w
 ...
 ```
 ---
-### 🧪 Possíveis Melhorias
-
-- Implementar cache local com TTL para não repetir chamadas de API
-- Salvar resumos preferidos em banco local
-- Tradução do resumo 
-- Interface gráfica
-- Integração com outras APIs de livros
-
----
 ### 🧾 Licença
 
 - Este projeto é de uso livre para fins educativos. Se inspirou ou reutilizou? Considere deixar uma ⭐ no repositório!
  
----
-### 🧑‍💻 Autor
-
-Desenvolvido por Daniela Medeiro Mota em realização do Challenge: LiterAlura ONE - Oracle Next Education
-
-📧 Email: danielamedeiromota@hotmail.com
-
-[🔗 LinkedIn](https://www.linkedin.com/in/danielammota/)
